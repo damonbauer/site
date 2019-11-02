@@ -4,20 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Eleventy blog" />
+    <meta name="description" content="Damon Bauer's Blog" />
     <title>{{ pageTitle }}</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:500,600,700"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles/common.css" />
-    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="./styles/app.css" />
   </head>
   <body>
-    <div class="container">
-      <h2>Horsin' Around.</h2>
-      <p>Hi!, This is BoJack. Horseman. Obviously.</p>
-      {{ content }}
-    </div>
+    <header>
+      <a href="/">damon bauer's blog</a><br>
+      <span>developer, amateur woodworker</span>
+    </header>
+
+    <h1>posts</h1>
+    {{ content }}
   </body>
 </html>
