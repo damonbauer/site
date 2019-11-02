@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6f09e1c5-14d2-47e1-be55-eeb90ffd46dd/deploy-status)](https://app.netlify.com/sites/eleventy-blog-mnml/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d11cabfb-6219-4073-8f62-bee1b79e484e/deploy-status)](https://app.netlify.com/sites/brave-ritchie-6a7937/deploys)
 
 
 # **eleventy-blog**
