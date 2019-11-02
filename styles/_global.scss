@@ -1,4 +1,5 @@
-$primary-color: #9a0087;
+$primary-color: aquamarine;
+$text-color: black;
 $off-white: #f2f2f2;
 
 ::selection {
@@ -16,9 +17,11 @@ body {
   margin: 0 auto;
   max-width: 600px;
   padding: 24px;
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 20px;
-  background: $off-white;
+  line-height: 1.6;
+  background-color: $off-white;
+  color: $text-color;
 }
 
 header {
@@ -26,10 +29,8 @@ header {
 
   a {
     display: inline-block;
-    text-decoration: none;
-    border-bottom: 3px solid $primary-color;
     margin-bottom: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   span {
@@ -40,11 +41,11 @@ header {
 
 a {
   display: inline-block;
-  color: $primary-color;
+  color: $text-color;
 
   &:hover,
   &:focus {
-    color: $off-white;
+    // color: $off-white;
     background-color: $primary-color;
   }
 }
