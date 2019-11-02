@@ -20,5 +20,5 @@ jobs:
     - name: npm install, clean & build
       run: |
         npm i
-        npm clean
-        npm build
+        npm run clean
+        npm run build
