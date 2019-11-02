@@ -4,23 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="{{ pageTitle }}" />
+    <meta name="description" content="{{ pageTitle }}" />
     <title>{{ pageTitle }}</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:500,600,700"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../../styles/common.css" />
-    <link rel="stylesheet" href="../../styles/blogpost.css" />
-    <link rel="stylesheet" href="../../styles/prism-a11y-dark.css"/>
+    <link rel="stylesheet" href="../../styles/app.css" />
   </head>
-  <body>
-    <div class="container post-container">
-        <h1>{{ pageTitle }}</h1>
-      {{ content }}
-      <div class="back-link">
-        <a href="/">← Back</a>
-      </div>
+  <body class="Post">
+    <header>
+      <a href="/">damon bauer's blog</a><br>
+      <span>developer, amateur woodworker</span>
+    </header>
+    <h1>{{ pageTitle }}</h1>
+    {{ content }}
+    <div class="Post-backLink">
+      <a href="/">← Back</a>
     </div>
   </body>
 </html>
