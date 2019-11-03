@@ -7,7 +7,7 @@ pageTitle: Damon Bauer's Blog
 {% for post in collections.posts reversed %}
   <li class="PostsList-post">
     <a href="{{ post.url }}" class="PostsList-postTitle">{{ post.data.pageTitle }}</a>
-    <span class="PostsList-postDate">{{ post.date | date: '%Y-%m-%d' }}</span>
+    <span class="PostsList-postDate">{{ post.data.date | date: '%Y-%m-%d' }}</span>
   </li>
 {% endfor %}
 </ol>
