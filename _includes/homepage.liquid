@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Damon Bauer's Blog" />
     <title>{{ pageTitle }}</title>
-    <link rel="stylesheet" href="./styles/app.css" />
+    {% capture css %}
+      {% include app.css %}
+    {% endcapture %}
+    <style>{{ css | cssmin | safe }}</style>
   </head>
   <body>
     <header>
