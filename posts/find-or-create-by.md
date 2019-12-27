@@ -11,7 +11,7 @@ The problem I ran into was the need to search for a `book` to associate with; if
 
 Here's how I used it:
 
-```rb
+``` rb/2,3,12,19
 def add
   shelf = find_or_create_shelf
   book = find_or_create_book
