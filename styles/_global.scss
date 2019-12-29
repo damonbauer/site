@@ -1,16 +1,6 @@
-$primary-color: aquamarine;
-$text-color: black;
-$off-white: #f2f2f2;
-
-::selection {
-  color: white;
-  background-color: $primary-color;
-}
-
-::-moz-selection {
-  color: white;
-  background-color: $primary-color;
-}
+$black: #111;
+$light-black: #444;
+$white: #f9f9f9;
 
 body {
   margin: 0;
@@ -20,8 +10,8 @@ body {
   font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 20px;
   line-height: 1.6;
-  background-color: $off-white;
-  color: $text-color;
+  background-color: $black;
+  color: $white;
 }
 
 header {
@@ -41,11 +31,13 @@ header {
 
 a {
   display: inline-block;
-  color: $text-color;
+  padding: 0 2px;
+  border-radius: 2px;
+  color: $white;
 
   &:hover,
   &:focus {
-    // color: $off-white;
-    background-color: $primary-color;
+    color: $black;
+    background-color: $white;
   }
 }
