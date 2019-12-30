@@ -1,5 +1,5 @@
 ---
-pageTitle: Today I Learned About Block Argument Destructuring In Ruby
+pageTitle: Argument Destructuring In Ruby
 date: 2019-12-29
 ---
 
