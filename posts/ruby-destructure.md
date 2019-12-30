@@ -1,5 +1,5 @@
 ---
-pageTitle: TIL: Ruby Block Argument Destructuring
+pageTitle: [TIL] Ruby Block Argument Destructuring
 date: 2019-12-29
 ---
 
