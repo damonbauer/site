@@ -6,20 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="{{ pageTitle }}" />
     <title>{{ pageTitle }}</title>
-    {% capture css %}
-      {% include app.css %}
-    {% endcapture %}
-    <style>{{ css | cssmin | safe }}</style>
+    <style type="text/css">body{max-width:600px;font-size:20px}</style>
   </head>
-  <body class="Post">
+  <body>
     <header>
       <a href="/">damon bauer's blog</a><br>
       <span>developer, amateur woodworker</span>
-    </header>
-    <h1>{{ pageTitle }}</h1>
+    </header><br><br>
+
+    <small>{{ date | date: '%Y-%m-%d' }}</small>
+    <h1 style="margin-top:0">
+      {{ pageTitle }}
+    </h1>
     {{ content }}
-    <div class="Post-backLink">
-      <a href="/">← Back</a>
-    </div>
+    <a href="/">← Back</a>
   </body>
 </html>
