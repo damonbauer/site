@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "A Blog Template using eleventy and terminal css.",
   "scripts": {
-    "build": "npm run sass && eleventy",
-    "serve": "concurrently 'npm run sass:watch' 'eleventy --serve'",
-    "sass": "node-sass --output  _includes styles/",
-    "sass:watch": "npm run sass && npm run sass -- -w",
+    "build": "eleventy",
+    "serve": "eleventy --serve",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +12,11 @@
   "author": "Damon Bauer (damon.e.bauer@gmail.com)",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "clean-css": "^4.2.1",
-    "concurrently": "^5.0.0",
-    "node-sass": "^4.13.0"
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "resolutions": {
+    "acorn": "^5.7.4",
+    "kind-of": "^6.0.3",
+    "minimist": "^1.2.3"
   }
 }
