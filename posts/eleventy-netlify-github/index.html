@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Blog With Eleventy, Netlify & GitHub" />
+    <title>Blog With Eleventy, Netlify & GitHub</title>
+    <style type="text/css">body{max-width:600px;font-size:20px}</style>
+  </head>
+  <body>
+    <header>
+      <a href="/">damon bauer's blog</a><br>
+      <span>developer, amateur woodworker</span>
+    </header><br><br>
+
+    <small>2019-11-03</small>
+    <h1 style="margin-top:0">
+      Blog With Eleventy, Netlify & GitHub
+    </h1>
+    <p>I have blogged on and off for a long time, using Wordpress, Jekyll and a few other random tools. I've never stuck with it (this iteration will probably suffer the same fate, if I'm honest).</p>
+<p>I've been feeling the pull to just write stuff down - even if it's not well formed, organized or polished. More of a recording of what I was doing/thinking/learning at the time. Thus, this iteration of a blog was born.</p>
+<p>One of the most annoying things of blogging to me is hosting &amp; infrastructure. Things have progressed quite rapidly in the space of <a href="https://www.staticgen.com/">static site generators</a>, so I thought I could make this work. I've landed on a setup that is pretty nice so far &amp; wanted to document it.</p>
+<h2>Eleventy</h2>
+<p>To build the actual posts &amp; pages, I chose <a href="https://www.11ty.io/">Eleventy</a>, and I cloned the <a href="https://github.com/arpitbatra123/eleventy-blog-mnml">eleventy-blog-mnml</a> repo because it is <em>super</em> basic, which is what I enjoy. I wanted the least amount of features and friction to start.</p>
+<p><a href="https://github.com/damonbauer/site">Here's the repo</a> that powers the site you're on right now.</p>
+<h2>GitHub</h2>
+<p>I tried using GitHub Actions for the first time to handle building the site. It's a small sample size, but it works seamlessly &amp; I am impressed with how fast this process goes.</p>
+<p><a href="https://github.com/damonbauer/site/blob/master/.github/workflows/build-deploy.yml">This is the GitHub action</a> I'm using to build the site using Eleventy &amp; push the built artifact to the <code>gh-pages</code> branch of the repo.</p>
+<pre><code>name: Build &amp; Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        ACCESS_TOKEN: $
+        BASE_BRANCH: master # The branch the action should deploy from.
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: _site # The folder the action should deploy.
+        BUILD_SCRIPT: npm install &amp;&amp; npm run build # The build script the action should run prior to deploying.
+</code></pre>
+<p>Two things to note:</p>
+<ol>
+<li>You'll need to <a href="https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token">generate a personal access token</a>, and store it in your repo secrets (Settings &gt; Secrets) as <code>ACCESS_TOKEN</code>.</li>
+<li>This uses an already built action, <a href="https://github.com/JamesIves/github-pages-deploy-action">github-pages-deploy-action</a>, to handle pushing the Eleventy built site (which is in the <code>./_site</code> folder) to the repo's <code>gh-pages</code> branch.</li>
+</ol>
+<h2>Netlify</h2>
+<p>Before this, I'd never used Netlify, but I've heard it is quite an enjoyable developer experience &amp; I now agree.</p>
+<p>I created an account and within 5 minutes I had purchased a domain name, got a free SSL certificate, and had a deploy system built to watch the <code>gh-pages</code> branch of my repo.</p>
+<p>About the only thing I changed was <code>Settings &gt; Build &amp; Deploy &gt; Continuous Deployment &gt; Deploy Contexts</code>, where I set <code>production-branch</code> to <code>gh-pages</code>.</p>
+<h2>All Together</h2>
+<p>The whole system works like this:</p>
+<ol>
+<li>I make a branch, where I author a new post.</li>
+<li>Make a PR against <code>master</code> and merge the PR.</li>
+<li>The GitHub action kicks off, which runs Eleventy to build the site into the <code>./_site</code> folder &amp; pushes that to the <code>gh-pages</code> branch.</li>
+<li>Netlify sees a change to the <code>gh-pages</code> branch and re-deploys the contents of the branch to the domain.</li>
+</ol>
+
+    <a href="/">← Back</a>
+  </body>
+</html>
