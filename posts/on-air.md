@@ -1,6 +1,6 @@
 ---
 pageTitle: On Air - I Launched a Product Today
-date: 2021-22-04
+date: 2021-04-22
 ---
 
 Today, I "launched" my first product. [On Air](https://getonair.app) is a Mac menubar app that controls your "smart devices" when an event occurs (like your camera turning on).
