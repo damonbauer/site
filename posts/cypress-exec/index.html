@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Seeding database with cy.exec" />
+    <title>Seeding database with cy.exec</title>
+    <style type="text/css">body{max-width:600px;font-size:20px}</style>
+  </head>
+  <body>
+    <header>
+      <a href="/">damon bauer's blog</a><br>
+      <span>developer, amateur woodworker</span>
+    </header><br><br>
+
+    <small>2021-07-23</small>
+    <h1 style="margin-top:0">
+      Seeding database with cy.exec
+    </h1>
+    <p>Recently, I found out that <a href="https://cypress.io">Cypress</a> has a command that can run arbitrary commands, <a href="https://docs.cypress.io/api/commands/exec"><code>cy.exec</code></a>. I've used this to setup my local database with seed data before tests run.</p>
+<p>However, the back end I'm working with doesn't have a <strong>deterministic, predictable</strong> seeder, so the test data is not guaranteed. So, I did some fun stuff with Postgres!</p>
+<h2>Dump the current state of the database</h2>
+<p>The first thing I did was get the database into the state that I want. Then, I used <code>psql</code> to dump the data into a <code>.sql</code> file:</p>
+<pre><code class="language-shell">psql -f seed.sql -d postgres -h 192.168.64.5 -p 31091 -U postgres -W
+</code></pre>
+<p>This script sets up the connection to the database I want, and outputs the contents to <code>seed.sql</code>.</p>
+<h2>Clean the database</h2>
+<p>Next, I needed to clean the database. I tried using a <code>--clean</code> flag, but that didn't seem to work. So, I wrote a separate <code>.sql</code> file (<code>truncate.sql</code>) to truncate everything:</p>
+<pre><code class="language-shell"># truncate.sql
+TRUNCATE TABLE public.table_name RESTART IDENTITY CASCADE;
+TRUNCATE TABLE public.another_table_name RESTART IDENTITY CASCADE;
+# more TRUNCATE statements...
+</code></pre>
+<h2>Execute <code>psql</code> within <code>cypress</code></h2>
+<p>Now, all that was left was to execute some <code>psql</code> from within my <code>cypress</code> test. I put the 2 <code>.sql</code> files inside <code>./cypress/data</code>.</p>
+<p>I also stored the connection values from above (database name, host, port user, password) in <code>./cypress.json</code> as environment variables.</p>
+<pre><code class="language-json">{
+  &quot;baseUrl&quot;: &quot;http://0.0.0.0:8080&quot;,
+  &quot;supportFile&quot;: &quot;cypress/support/index.ts&quot;,
+  &quot;viewportHeight&quot;: 768,
+  &quot;viewportWidth&quot;: 1024,
+  &quot;env&quot;: {
+    &quot;PGDATABASE&quot;: &quot;postgres&quot;,
+    &quot;PGHOST&quot;: &quot;192.168.64.5&quot;,
+    &quot;PGPORT&quot;: 31091,
+    &quot;PGUSER&quot;: &quot;postgres&quot;,
+    &quot;PGPASSWORD&quot;: &quot;postgres&quot;
+  }
+}
+</code></pre>
+<p>Now, I'm ready to use <code>cy.exec</code>. Here, I'm executing an arbitrary shell command, combining 2 <code>psql</code> commands to truncate, then seed the database.</p>
+<p>Note that I'm providing another <code>env</code> object; Cypress merges these environment variables in with the system environment variables, so I was able to use the same names that Postgres looks for automatically. I'm retrieving the values from <code>cypress.json</code> by using <code>Cypress.env</code>.</p>
+<pre><code class="language-js">describe('A test suite description', () =&gt; {
+    before(() =&gt; {
+        cy.exec(
+            'psql -f ./cypress/data/truncate.sql &amp;&amp; psql -f ./cypress/data/seed.sql',
+            {
+                env: {
+                    PGDATABASE: Cypress.env('PGDATABASE'),
+                    PGHOST: Cypress.env('PGHOST'),
+                    PGPORT: Cypress.env('PGPORT'),
+                    PGUSER: Cypress.env('PGUSER'),
+                    PGPASSWORD: Cypress.env('PGPASSWORD'),
+                },
+            }
+        )
+    })
+})
+</code></pre>
+<p>Here's the output:</p>
+<p><img src="https://user-images.githubusercontent.com/368723/126814496-057f7d84-4340-4a14-a28d-307190e5daa2.png" alt="Screen Shot 2021-07-23 at 11 43 11 AM"></p>
+
+    <a href="/">← Back</a>
+  </body>
+</html>
