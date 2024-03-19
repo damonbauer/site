@@ -1,5 +1,5 @@
 ---
-pageTitle: Use node to enhance an npm script
+title: Use node to enhance an npm script
 date: 2021-05-24
 ---
 
@@ -7,7 +7,7 @@ Here's a way that I like to enhance a minimal npm script by using node.
 
 Given this folder structure:
 
-```
+```shell
 ..
 └── projects
     ├── Aces

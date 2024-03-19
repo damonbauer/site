@@ -1,5 +1,5 @@
 ---
-pageTitle: Stimulus Toggle Utility
+title: Stimulus Toggle Utility
 date: 2020-04-13
 ---
 

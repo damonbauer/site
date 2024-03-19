@@ -1,6 +1,4 @@
-# node modules
-node_modules
-
-# eleventy output
-_site
-
+_site/
+node_modules/
+package-lock.json
+.cache

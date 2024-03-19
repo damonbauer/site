@@ -1,5 +1,5 @@
 ---
-pageTitle: Reporting JavaScript Errors To New Relic
+title: Reporting JavaScript Errors To New Relic
 date: 2019-12-20
 ---
 
