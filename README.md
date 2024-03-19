@@ -3,12 +3,12 @@
 
 # site
 
-A site using [eleventy.](https://www.11ty.io/docs/), markdown & SCSS.
+A site using [eleventy](https://www.11ty.io/docs/).
 
 ## How to Use?
 
 1. Clone this repo 
 2. Install dependencies by running `npm i` 
-3. Add posts in the `posts` folder. 
-4. Run a copy of the project locally using `npm run serve` to see your changes locally.
+3. Add posts in the `content/blog` folder. 
+4. Run a copy of the project locally using `npm start` to see your changes locally.
 5. Run `npm run build` which will build your website in the `_site` folder which you can deploy.

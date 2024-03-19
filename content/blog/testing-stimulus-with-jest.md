@@ -1,5 +1,5 @@
 ---
-pageTitle: Testing Stimulus With Jest
+title: Testing Stimulus With Jest
 date: 2019-11-03
 ---
 

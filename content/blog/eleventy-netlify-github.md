@@ -1,5 +1,5 @@
 ---
-pageTitle: Blog With Eleventy, Netlify & GitHub
+title: Blog With Eleventy, Netlify & GitHub
 date: 2019-11-03
 ---
 
@@ -19,7 +19,7 @@ I tried using GitHub Actions for the first time to handle building the site. It'
 
 [This is the GitHub action](https://github.com/damonbauer/site/blob/master/.github/workflows/build-deploy.yml) I'm using to build the site using Eleventy & push the built artifact to the `gh-pages` branch of the repo.
 
-```
+```yaml
 name: Build & Deploy
 
 on:

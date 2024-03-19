@@ -1,5 +1,5 @@
 ---
-pageTitle: Argument Destructuring In Ruby
+title: Argument Destructuring In Ruby
 date: 2019-12-29
 ---
 

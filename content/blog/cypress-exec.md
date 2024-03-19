@@ -1,5 +1,5 @@
 ---
-pageTitle: Seeding database with cy.exec
+title: Seeding database with cy.exec
 date: 2021-07-23
 ---
 

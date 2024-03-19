@@ -1,5 +1,5 @@
 ---
-pageTitle: Find or Create By (Rails)
+title: Find or Create By (Rails)
 date: 2019-12-27
 ---
 
