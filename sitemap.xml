@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/eleventy-netlify-github/</loc>
+		<lastmod>November-03-2019</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/testing-stimulus-with-jest/</loc>
+		<lastmod>November-03-2019</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/js-errors-newrelic/</loc>
+		<lastmod>December-20-2019</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/find-or-create-by/</loc>
+		<lastmod>December-27-2019</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/ruby-destructure/</loc>
+		<lastmod>December-29-2019</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/stimulus-toggle/</loc>
+		<lastmod>April-13-2020</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/convert-npm-script-to-node-script/</loc>
+		<lastmod>May-24-2021</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/cypress-exec/</loc>
+		<lastmod>July-23-2021</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/sectionlist-getitemlayout-npm/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/blog/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/evenspacing/privacy/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/fractioncalculator/privacy/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/groupgifts/privacy/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/maze/privacy/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/maze/support/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tipcalculator/privacy/</loc>
+		<lastmod>March-19-2024</lastmod>
+	</url>
+</urlset>
