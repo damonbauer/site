@@ -1,6 +1,10 @@
 ---
 title: Stimulus Toggle Utility
 date: 2020-04-13
+tags:
+    - stimulus
+    - javascript
+    - npm
 ---
 
 I made a [Stimulus](https://stimulusjs.org/) controller to handle toggling elements. It's basic, but does what I need.

@@ -1,6 +1,10 @@
 ---
 title: Find or Create By (Rails)
 date: 2019-12-27
+tags:
+    - rails
+    - ruby
+    - activerecord
 ---
 
 Recently on a Rails project, I had the need to create a `shelf` record and associate it with a `book` record. (These particular records are using a `has_many :through` relationship).

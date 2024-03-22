@@ -1,6 +1,11 @@
 ---
 title: Testing Stimulus With Jest
 date: 2019-11-03
+tags:
+    - stimulus
+    - jest
+    - testing
+    - javascript
 ---
 
 I've been introducing [Stimulus](https://stimulusjs.org/) to a Rails app that uses [Jest](https://jestjs.io/) for testing JavaScript. After some research, I've found a pretty decent setup that allows me to load up a Stimulus controller to writes tests. If you need to do the same, here are some things you'll need, as well as some nice-to-haves.

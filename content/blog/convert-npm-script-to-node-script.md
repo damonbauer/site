@@ -1,6 +1,10 @@
 ---
 title: Use node to enhance an npm script
 date: 2021-05-24
+tags:
+    - node
+    - npm
+    - javascript
 ---
 
 Here's a way that I like to enhance a minimal npm script by using node.

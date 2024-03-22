@@ -1,6 +1,8 @@
 ---
 title: Argument Destructuring In Ruby
 date: 2019-12-29
+tags:
+    - ruby
 ---
 
 With a hash in the following structure:
