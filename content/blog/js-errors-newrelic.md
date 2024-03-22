@@ -1,6 +1,8 @@
 ---
 title: Reporting JavaScript Errors To New Relic
 date: 2019-12-20
+tags:
+    - javascript
 ---
 
 With New Relic configured properly, unhandled exceptions will be handled and recorded by New Relic automatically. If you want to record a error manually while allowing your code to continue to execute, you can build a quick utility function.

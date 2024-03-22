@@ -1,6 +1,10 @@
 ---
 title: Seeding database with cy.exec
 date: 2021-07-23
+tags:
+    - cypress
+    - postgres
+    - testing
 ---
 
 Recently, I found out that [Cypress](https://cypress.io) has a command that can run arbitrary commands, [`cy.exec`](https://docs.cypress.io/api/commands/exec). I've used this to setup my local database with seed data before tests run.

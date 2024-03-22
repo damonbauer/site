@@ -1,6 +1,10 @@
 ---
 title: Blog With Eleventy, Netlify & GitHub
 date: 2019-11-03
+tags:
+    - eleventy
+    - netlify
+    - github
 ---
 
 I have blogged on and off for a long time, using Wordpress, Jekyll and a few other random tools. I've never stuck with it (this iteration will probably suffer the same fate, if I'm honest).

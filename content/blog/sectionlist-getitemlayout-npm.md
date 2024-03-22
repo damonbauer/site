@@ -1,6 +1,9 @@
 ---
 title: Creating a better getItemLayout for SectionList in React Native
 date: 2024-03-19
+tags:
+    - react-native
+    - npm
 ---
 TLDR: Today, I published a new `npm` package called [`react-native-get-item-layout-section-list`][1]. This package is a helper for the `getItemLayout` prop in a `SectionList` in React Native.
 
