@@ -255,21 +255,29 @@ header {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
 	font-size: 0.8125em; /* 13px /16 */
 }
 .postlist-item > .post-tag {
 	align-self: center;
 }
 
-/* Tags list */
 .post-metadata {
+	margin-top: 3em;
+	display: flex;
+}
+
+/* Tags list */
+.post-metadata-tags {
 	display: inline-flex;
 	flex-wrap: wrap;
 	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 0 0 0 1em;
+}
+
+.post-metadata-tags li {
+	line-height: 1;
 }
 
 /* Direct Links / Markdown Headers */
@@ -319,7 +327,6 @@ h2 + .header-anchor {
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
 				</ul>
 			</nav>
@@ -331,6 +338,51 @@ h2 + .header-anchor {
 <h1>Tags</h1>
 
 <ul>
+
+	
+	<li><a href="/tags/eleventy/" class="post-tag">eleventy</a></li>
+
+	
+	<li><a href="/tags/netlify/" class="post-tag">netlify</a></li>
+
+	
+	<li><a href="/tags/github/" class="post-tag">github</a></li>
+
+	
+	<li><a href="/tags/stimulus/" class="post-tag">stimulus</a></li>
+
+	
+	<li><a href="/tags/jest/" class="post-tag">jest</a></li>
+
+	
+	<li><a href="/tags/testing/" class="post-tag">testing</a></li>
+
+	
+	<li><a href="/tags/javascript/" class="post-tag">javascript</a></li>
+
+	
+	<li><a href="/tags/rails/" class="post-tag">rails</a></li>
+
+	
+	<li><a href="/tags/ruby/" class="post-tag">ruby</a></li>
+
+	
+	<li><a href="/tags/activerecord/" class="post-tag">activerecord</a></li>
+
+	
+	<li><a href="/tags/npm/" class="post-tag">npm</a></li>
+
+	
+	<li><a href="/tags/node/" class="post-tag">node</a></li>
+
+	
+	<li><a href="/tags/cypress/" class="post-tag">cypress</a></li>
+
+	
+	<li><a href="/tags/postgres/" class="post-tag">postgres</a></li>
+
+	
+	<li><a href="/tags/react-native/" class="post-tag">react-native</a></li>
 
 </ul>
 

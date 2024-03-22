@@ -48,46 +48,131 @@
 	
 	<url>
 		<loc>https://damonbauer.dev/blog/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/evenspacing/privacy/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/fractioncalculator/privacy/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/groupgifts/account/</loc>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/groupgifts/privacy/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/maze/privacy/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/maze/support/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/node/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/npm/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/javascript/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/cypress/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/postgres/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/testing/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/eleventy/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/netlify/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/github/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/rails/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/ruby/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/activerecord/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/product/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/react-native/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/stimulus/</loc>
+		<lastmod>March-22-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/jest/</loc>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tipcalculator/privacy/</loc>
-		<lastmod>March-19-2024</lastmod>
+		<lastmod>March-22-2024</lastmod>
 	</url>
 </urlset>

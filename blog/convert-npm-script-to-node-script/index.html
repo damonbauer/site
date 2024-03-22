@@ -422,21 +422,29 @@ header {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	text-transform: capitalize;
 	font-size: 0.8125em; /* 13px /16 */
 }
 .postlist-item > .post-tag {
 	align-self: center;
 }
 
-/* Tags list */
 .post-metadata {
+	margin-top: 3em;
+	display: flex;
+}
+
+/* Tags list */
+.post-metadata-tags {
 	display: inline-flex;
 	flex-wrap: wrap;
 	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 0 0 0 1em;
+}
+
+.post-metadata-tags li {
+	line-height: 1;
 }
 
 /* Direct Links / Markdown Headers */
@@ -486,7 +494,6 @@ h2 + .header-anchor {
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
 				</ul>
 			</nav>
@@ -631,8 +638,14 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 
 
-<ul class="post-metadata">
-</ul>
+<section class="post-metadata">
+	<strong>Tags:</strong>
+	<ul class="post-metadata-tags">
+			<li><a href="/tags/node/" class="post-tag">node</a>, </li>
+			<li><a href="/tags/npm/" class="post-tag">npm</a>, </li>
+			<li><a href="/tags/javascript/" class="post-tag">javascript</a></li>
+	</ul>
+</section>
 <ul class="links-nextprev"><li>Previous: <a href="/blog/stimulus-toggle/">Stimulus Toggle Utility</a></li><li>Next: <a href="/blog/cypress-exec/">Seeding database with cy.exec</a></li>
 </ul>
 
