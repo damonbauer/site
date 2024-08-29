@@ -87,11 +87,6 @@
 	</url>
 	
 	<url>
-		<loc>https://damonbauer.dev/maze/zones/privacy/</loc>
-		<lastmod>August-29-2024</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://damonbauer.dev/tags/</loc>
 		<lastmod>August-29-2024</lastmod>
 	</url>
@@ -127,21 +122,6 @@
 	</url>
 	
 	<url>
-		<loc>https://damonbauer.dev/tags/rails/</loc>
-		<lastmod>August-29-2024</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/ruby/</loc>
-		<lastmod>August-29-2024</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/activerecord/</loc>
-		<lastmod>August-29-2024</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://damonbauer.dev/tags/eleventy/</loc>
 		<lastmod>August-29-2024</lastmod>
 	</url>
@@ -157,6 +137,21 @@
 	</url>
 	
 	<url>
+		<loc>https://damonbauer.dev/tags/rails/</loc>
+		<lastmod>August-29-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/ruby/</loc>
+		<lastmod>August-29-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/activerecord/</loc>
+		<lastmod>August-29-2024</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://damonbauer.dev/tags/product/</loc>
 		<lastmod>August-29-2024</lastmod>
 	</url>
@@ -167,17 +162,22 @@
 	</url>
 	
 	<url>
-		<loc>https://damonbauer.dev/tags/react-native/</loc>
-		<lastmod>August-29-2024</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://damonbauer.dev/tags/jest/</loc>
 		<lastmod>August-29-2024</lastmod>
 	</url>
 	
 	<url>
+		<loc>https://damonbauer.dev/tags/react-native/</loc>
+		<lastmod>August-29-2024</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://damonbauer.dev/tipcalculator/privacy/</loc>
+		<lastmod>August-29-2024</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/zones/privacy/</loc>
 		<lastmod>August-29-2024</lastmod>
 	</url>
 	
