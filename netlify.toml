@@ -22,3 +22,16 @@
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
+
+# Installed Even Spacing builds still fetch the old URLs. Keep these forever.
+[[redirects]]
+	from = "/evenspacing/version-gate.json"
+	to = "https://evenspacingcalculator.com/version-gate.json"
+	status = 301
+	force = true
+
+[[redirects]]
+	from = "/evenspacing/privacy.html"
+	to = "https://evenspacingcalculator.com/privacy/"
+	status = 301
+	force = true
