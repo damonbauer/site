@@ -117,31 +117,6 @@
 	</url>
 	
 	<url>
-		<loc>https://damonbauer.dev/tags/product/</loc>
-		<lastmod>October-22-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/ruby/</loc>
-		<lastmod>October-22-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/react-native/</loc>
-		<lastmod>October-22-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/stimulus/</loc>
-		<lastmod>October-22-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/jest/</loc>
-		<lastmod>October-22-2026</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://damonbauer.dev/tags/eleventy/</loc>
 		<lastmod>October-22-2026</lastmod>
 	</url>
@@ -162,7 +137,32 @@
 	</url>
 	
 	<url>
+		<loc>https://damonbauer.dev/tags/ruby/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://damonbauer.dev/tags/activerecord/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/product/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/react-native/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/stimulus/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/jest/</loc>
 		<lastmod>October-22-2026</lastmod>
 	</url>
 	
