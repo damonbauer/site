@@ -48,141 +48,136 @@
 	
 	<url>
 		<loc>https://damonbauer.dev/blog/</loc>
-		<lastmod>September-11-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/evenspacing/privacy/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/fractioncalculator/privacy/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/groupgifts/account/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/groupgifts/privacy/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/maze/privacy/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/maze/support/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/node/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/npm/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/javascript/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/cypress/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/postgres/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/testing/</loc>
-		<lastmod>September-11-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/eleventy/</loc>
-		<lastmod>September-11-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/netlify/</loc>
-		<lastmod>September-11-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/github/</loc>
-		<lastmod>September-11-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/rails/</loc>
-		<lastmod>September-11-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/ruby/</loc>
-		<lastmod>September-11-2026</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://damonbauer.dev/tags/activerecord/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/product/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/ruby/</loc>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/react-native/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/stimulus/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tags/jest/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/eleventy/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/netlify/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/github/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/rails/</loc>
+		<lastmod>October-22-2026</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://damonbauer.dev/tags/activerecord/</loc>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/tipcalculator/privacy/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/zones/privacy/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://damonbauer.dev/zones/support/</loc>
-		<lastmod>September-11-2026</lastmod>
+		<lastmod>October-22-2026</lastmod>
 	</url>
 </urlset>
