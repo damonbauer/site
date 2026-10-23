@@ -1,3 +1,5 @@
 # Installed Even Spacing builds still fetch the old URLs. Keep these forever.
 /evenspacing/version-gate.json  https://evenspacingcalculator.com/version-gate.json  301!
 /evenspacing/privacy.html       https://evenspacingcalculator.com/privacy/           301!
+/evenspacing/privacy/           https://evenspacingcalculator.com/privacy/           301!
+/evenspacing/privacy            https://evenspacingcalculator.com/privacy/           301!
